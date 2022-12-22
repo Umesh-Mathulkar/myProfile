@@ -39,6 +39,19 @@ body {
 .name p {
     padding-left: 50px;
 }
+.boots{
+    background: url(./images/Bootstrap_logo.svg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100px;
+    transition-duration: 0.6s;
+}
+.boots:hover{
+    background-color: #9ed6a6;
+    padding: 100px;
+    border-radius: 30px;
+    transition-duration: 1s;
+}
 
 .htmlImg {
     background: url(./images/htmlImg.png) no-repeat;
