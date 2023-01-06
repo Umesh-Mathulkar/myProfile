@@ -1,8 +1,7 @@
-
 body {
     background: rgb(240, 245, 246);
     background: linear-gradient(90deg, rgba(240, 245, 246, 1) 0%, rgba(244, 245, 246, 1) 94%);
-    font-family: 'Work Sans', sans-serif!important;
+    font-family: 'Poppins', sans-serif !important;
 
 
 }
@@ -28,7 +27,6 @@ body {
     background-position: center;
     background-size: contain;
     height: 450px;
-    /* width: 450px; */
 }
 
 .name {
@@ -39,14 +37,16 @@ body {
 .name p {
     padding-left: 50px;
 }
-.boots{
+
+.boots {
     background: url(./images/Bootst.svg) no-repeat;
     background-position: center;
     background-size: contain;
     height: 100px;
     transition-duration: 0.6s;
 }
-.boots:hover{
+
+.boots:hover {
     background-color: #9ed6a6;
     padding: 100px;
     border-radius: 30px;
@@ -127,49 +127,94 @@ body {
     height: 38px;
     transition-duration: 0.3s;
 }
-.hide{
+
+.hide {
     display: none;
 }
-.opac{
+
+.opac {
     opacity: 50%;
 }
-#name{
+
+#name {
     position: fixed;
     z-index: 1000;
     width: 100%;
 }
-#name .container{
+
+#name .container {
     background-color: rgba(225, 250, 186, 0.5);
     margin-top: 10px;
     border: 2px solid black;
-    -webkit-animation: fadein 2s;
+    -webkit-animation: fadein 1.4s;
+
 }
-@keyframes fadein{
-    from{
+
+@keyframes fadein {
+    from {
         opacity: 0;
     }
-    to{
+
+    to {
         opacity: 1;
     }
 }
-.intro input{
+
+.intro input {
     height: 50px;
+    width: 100%;
 }
-.hide1{display: none;}
-#name:hover + .hide1 {
+
+.hide1 {
+    display: none;
+}
+
+#name:hover+.hide1 {
     position: fixed;
     width: 100%;
     display: flex;
     color: red;
     justify-content: center;
-    margin-top: 250px;
+    margin-top: 270px;
 }
-.intro button{
+
+.intro button {
     background-color: transparent;
     color: rgb(64, 114, 64);
     border: 1px solid rgb(64, 114, 64);
     height: 50px;
+    width: 100%;
+    display: block;
+    align-items: center;
 }
-.intro button:hover{
-    background-color: rgb(255, 253, 253) ;
+
+.intro button:hover {
+    background-color: rgb(255, 253, 253);
+}
+
+#project a {
+    text-align: center;
+    padding: 2%;
+    text-decoration: none;
+    color: rgb(20, 92, 18);
+}
+
+#project h3 {
+    position: relative;
+    top: 60px;
+}
+
+#project {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(225, 250, 186, 0.5);
+    line-height: 80px;
+    text-align: center;
+    border-radius: 20%;
+}
+
+.back {
+    background: url(./images/green.jpg);
+    background-position: center;
+    background-size: cover;
 }
