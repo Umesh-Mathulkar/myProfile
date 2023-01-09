@@ -48,9 +48,9 @@ body {
 
 .boots:hover {
     background-color: #9ed6a6;
-    padding: 100px;
+    padding: 53px;
     border-radius: 30px;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .htmlImg {
@@ -63,9 +63,9 @@ body {
 
 .htmlImg:hover {
     background-color: #9ed6a6;
-    padding: 100px;
+    padding: 53px;
     border-radius: 30px;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .cssImg {
@@ -78,9 +78,9 @@ body {
 
 .cssImg:hover {
     background-color: #9ed6a6;
-    padding: 100px;
+    padding: 53px;
     border-radius: 30px;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .jsImg {
@@ -93,9 +93,9 @@ body {
 
 .jsImg:hover {
     background-color: #9ed6a6;
-    padding: 100px;
+    padding: 53px;
     border-radius: 30px;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .extraSkill {
